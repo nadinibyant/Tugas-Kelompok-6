@@ -23,8 +23,6 @@ public class TugasBesar {
         for (int i = 1; i <= 10; i++) {
             bisnis.push(i);
         }
-        System.out.println("Tiket Kereta Bisnis : ");
-        System.out.println(bisnis);
         for (int j = 1; j <= 10; j++) {
             ekonomi.push(j);
         }
