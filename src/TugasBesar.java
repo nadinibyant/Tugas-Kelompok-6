@@ -158,6 +158,9 @@ public class TugasBesar {
                                                             .println("silahkan lakukan pembayaran " + harga_bisnis
                                                                     + " : ");
                                                     uang_bayar = inputan.nextInt();
+                                                    kembalian = uang_bayar - harga_bisnis;
+                                                    System.out.println(
+                                                            "Terimakasih, kembalian anda adalah : " + kembalian);
                                                 } else if (uang_bayar == harga_bisnis) {
                                                     System.out.println("Terimakasih telah melakukan pembayaran");
                                                 }
@@ -209,6 +212,9 @@ public class TugasBesar {
                                                     System.out.println(
                                                             "silahkan lakukan pembayaran " + harga_ekonomi + " : ");
                                                     uang_bayar = inputan.nextInt();
+                                                    kembalian = uang_bayar - harga_ekonomi;
+                                                    System.out.println(
+                                                            "Terimakasih, kembalian anda adalah : " + kembalian);
                                                 } else if (uang_bayar == harga_ekonomi) {
                                                     System.out.println("Terimakasih telah melakukan pembayaran");
                                                 }
